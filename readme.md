@@ -1,6 +1,6 @@
 # ~ Next.js example ~
 
-# [next.js, styled-components, linter, redux, redux-thunk]
+## [next.js, styled-components, linter, redux, redux-thunk]
 
 Install it and run:
 
