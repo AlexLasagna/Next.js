@@ -1,10 +1,10 @@
 // styles
 import { CardContainer } from './styles';
 
-const Card = ({ title }) => (
+const TodoCard = ({ title }) => (
   <CardContainer>
     <div>{title}</div>
   </CardContainer>
 );
 
-export default Card;
+export default TodoCard;

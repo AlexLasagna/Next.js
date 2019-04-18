@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { getTodos } from '../actions/todos';
 
 // components
-import Card from '../components/TodoCard';
+import TodoCard from '../components/TodoCard';
 
 class CkeckOut extends Component {
   componentDidMount() {
@@ -20,7 +20,7 @@ class CkeckOut extends Component {
         <h1>Fetched todos</h1>
         <div>
           {todosList.slice(0, 5).map(card => (
-            <Card key={card.id} title={card.title} />
+            <TodoCard key={card.id} title={card.title} />
           ))}
         </div>
       </div>
