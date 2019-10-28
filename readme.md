@@ -1,4 +1,4 @@
-# ~ Next.js example ~
+# Next.js example
 
 ## [next.js, styled-components, linter, redux, redux-thunk]
 
